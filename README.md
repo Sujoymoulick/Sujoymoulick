@@ -32,7 +32,7 @@
 </div>
 
 
-# 👋 Hi, I'm Sujoy Moulick
+#
 
 Welcome to my GitHub profile! This repository serves as a **digital portfolio** showcasing my development skills, coding journey, and open-source contributions.
 
@@ -70,7 +70,7 @@ This profile is focused on **practical application development**, **code example
 ---
 
 ## 📫 Connect with Me
-- LinkedIn: [Sujoy Moulick]([https://www.linkedin.com/in/sujoymoulick](https://www.linkedin.com/in/sujoymoulick/))
+- LinkedIn: [Sujoy Moulick](https://www.linkedin.com/in/sujoymoulick/)
 
 ---
 
