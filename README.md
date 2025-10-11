@@ -1,4 +1,4 @@
-<img width="1584" height="396" alt="content creator2" src="https://github.com/user-attachments/assets/2fa27b67-eca5-4661-a76b-dd3ede3cf314" />
+[<img width="1584" height="396" alt="content creator2" src="https://github.com/user-attachments/assets/2fa27b67-eca5-4661-a76b-dd3ede3cf314" />](https://github.com/Sujoymoulick/Sujoymoulick/blob/main/content%20creator2.png)
 
 
 <h1 align="center">Hi 👋, I'm Sujoy Moulick</h1>
