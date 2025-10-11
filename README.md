@@ -22,9 +22,9 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/sujoymoulick" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sujoymoulick" height="30" width="40" /></a>
-<a href="https://fb.com/sujoymoulick" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="sujoymoulick" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/lifeunderzero" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="lifeunderzero" height="30" width="40" /></a>
+<a href="[https://linkedin.com/in/sujoymoulick](https://www.linkedin.com/in/sujoymoulick/)" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sujoymoulick" height="30" width="40" /></a>
+<a href="[https://fb.com/sujoymoulick](https://www.facebook.com/share/16CvJZQ2V9/)" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="sujoymoulick" height="30" width="40" /></a>
+<a href="[https://www.youtube.com/c/lifeunderzero](https://youtube.com/@lifeunderzeroshorts?si=JBwOjc5tClDsJb5J)" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="lifeunderzero" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
