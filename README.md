@@ -85,4 +85,3 @@ This profile is focused on **practical application development**, **code example
 ---
 
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sujoymoulick&" alt="sujoymoulick" /></p>
