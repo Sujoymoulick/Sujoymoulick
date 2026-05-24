@@ -66,10 +66,15 @@ This profile is focused on **practical application development**, **code example
 
 ### GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Sujoymoulick&show_icons=true&theme=radical" alt="Stats Card" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sujoymoulick&layout=compact&theme=radical" alt="Top Langs" />
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Sujoymoulick&show_icons=true&theme=dark&hide_border=true" height="170"/>
+
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sujoymoulick&theme=dark&hide_border=true" height="170"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sujoymoulick&layout=compact&theme=dark&hide_border=true"/>
+</p>
 
 ---
 
