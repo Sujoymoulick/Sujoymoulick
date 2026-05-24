@@ -70,6 +70,7 @@ This profile is focused on **practical application development**, **code example
   <img src="https://github-readme-stats.vercel.app/api?username=Sujoymoulick&show_icons=true&theme=radical" alt="Stats Card" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sujoymoulick&layout=compact&theme=radical" alt="Top Langs" />
 </div>
+
 ---
 
 ## 📫 Connect with Me
