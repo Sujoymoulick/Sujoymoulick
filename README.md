@@ -12,7 +12,7 @@
 
 - 🌱 I’m currently learning **Frameworks , Html,Css,JS,DSA**
 
-- 👨‍💻 All of my projects are available at [https://sujoymoulick.github.io/PORTFOLIO/](https://sujoymoulick.github.io/PORTFOLIO/)
+- 👨‍💻 All of my projects are available at [https://sujoymoulick.github.io/PORTFOLIO/]((https://sujoymoulick.vercel.app/))
 
 - 💬 Ask me about **Frontend**
 
