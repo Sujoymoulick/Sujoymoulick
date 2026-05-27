@@ -83,12 +83,6 @@ This profile is focused on **practical application development**, **code example
 
 ---
 
-
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Sujoymoulick&show_icons=true&locale=en&layout=compact" alt="Sujoymoulick" /></p>
-
-
----
-
 > "Code is like humor. When you have to explain it, it’s bad." – Cory House
 
 ---
