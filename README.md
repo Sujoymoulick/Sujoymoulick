@@ -8,11 +8,11 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 🔭 I’m currently working on [My Portfolio](https://sujoymoulick.github.io/PORTFOLIO/)
+- 🔭 I’m currently working on my portfolio: [sujoymoulick.vercel.app](https://sujoymoulick.vercel.app/)
 
-- 🌱 I’m currently learning **Frameworks , Html,Css,JS,DSA**
+- 🌱 I’m currently learning **Frameworks, HTML, CSS, JavaScript, and DSA**
 
-- 👨‍💻 All of my projects are available at [https://sujoymoulick.vercel.app/]((https://sujoymoulick.vercel.app/))
+- 👨‍💻 All of my projects are available at: [sujoymoulick.vercel.app](https://sujoymoulick.vercel.app/)
 
 - 💬 Ask me about **Frontend**
 
