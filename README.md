@@ -84,7 +84,7 @@ This profile is focused on **practical application development**, **code example
 ---
 
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sujoymoulick&show_icons=true&locale=en&layout=compact" alt="sujoymoulick" /></p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Sujoymoulick&show_icons=true&locale=en&layout=compact" alt="Sujoymoulick" /></p>
 
 
 ---
