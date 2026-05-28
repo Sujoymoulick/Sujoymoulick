@@ -1,5 +1,6 @@
 <img width="1584" height="396" alt="content creator2" src="https://github.com/user-attachments/assets/56368b58-1397-4972-9639-9578c7fa28c3" />
-<img width="3780" height="1890" alt="SUJOY" src="https://github.com/user-attachments/assets/1188d7b8-4584-4fbb-8a99-0855e9190514" />
+<img width="773" height="386" alt="Screenshot 2026-05-28 at 1 58 49 PM" src="https://github.com/user-attachments/assets/812507b3-c1b7-4757-a696-148c09e09304" />
+
 
 
 <h1 align="center">Hi 👋, I'm Sujoy Moulick</h1>
