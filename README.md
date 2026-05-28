@@ -1,5 +1,5 @@
 <img width="1584" height="396" alt="content creator2" src="https://github.com/user-attachments/assets/56368b58-1397-4972-9639-9578c7fa28c3" />
-<img width="773" height="386" alt="Screenshot 2026-05-28 at 1 58 49 PM" src="https://github.com/user-attachments/assets/812507b3-c1b7-4757-a696-148c09e09304" />
+<img width="1584" height="396" alt="Screenshot 2026-05-28 at 1 58 49 PM" src="https://github.com/user-attachments/assets/812507b3-c1b7-4757-a696-148c09e09304" />
 
 
 
