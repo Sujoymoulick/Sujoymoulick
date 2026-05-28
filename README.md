@@ -4,7 +4,7 @@
 
 <h1 align="center">Hi 👋, I'm Sujoy Moulick</h1>
 <h3 align="center">A passionate frontend developer and graphic designer from India</h3>
-<img align="right" width="300" height="400" alt="mxj-files-skeleton-17824" src="https://github.com/user-attachments/assets/a151a0cc-449a-48f5-937e-fcefda3d0c9e" />
+<img align="right" width="300" height="350" alt="mxj-files-skeleton-17824" src="https://github.com/user-attachments/assets/a151a0cc-449a-48f5-937e-fcefda3d0c9e" />
 
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Sujoymoulick&label=Profile%20views&color=0e75b6&style=flat" alt="sujoymoulick" /> </p>
