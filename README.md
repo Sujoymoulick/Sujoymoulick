@@ -149,6 +149,15 @@ I enjoy transforming ideas into real-world products using modern technologies, c
 
 ---
 
+## 📊 Contribution Graph
+
+<p align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sujoymoulick&theme=tokyo-night&hide_border=true" alt="Contribution Graph"/>
+</p>
+
+
+---
+
 # 🤝 Connect With Me
 
 <p align="center">
