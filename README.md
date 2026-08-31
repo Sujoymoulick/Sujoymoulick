@@ -65,7 +65,7 @@ I'm **Sujoy Moulick**, a B.Tech CSE student and full-stack developer focused on 
 
 This GitHub profile acts as my **digital workspace and portfolio**, where I continuously experiment, learn, and create practical software solutions — turning ideas into real-world products using modern technologies, clean UI/UX, and intelligent workflows powered by AI.
 
-**PROJECTS**
+**SAAS PROJECTS**
 - [ EchoToDo](https://sujoymoulick.github.io/EchoToDo-documentation/) — Voice-powered productivity & todo extension
 - [ FreePDFly](https://freepdfly.com) — Live SaaS, browser-based PDF toolkit
 - [ SendVirtualGift](https://sendvirtualgift.com) — Live SaaS, send virtual gifts online
