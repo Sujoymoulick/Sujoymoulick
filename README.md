@@ -26,7 +26,7 @@
 
 <a href="https://www.linkedin.com/in/sujoymoulick/"><img src="./assets/btn-linkedin.svg" height="48" alt="LinkedIn"/></a>
 <a href="https://github.com/Sujoymoulick"><img src="./assets/btn-github.svg" height="48" alt="GitHub"/></a>
-<a href="https://sujoymoulick.vercel.app/"><img src="./assets/btn-portfolio.svg" height="48" alt="Portfolio"/></a>
+<a href="https://sujoymoulick.online/"><img src="./assets/btn-portfolio.svg" height="48" alt="Portfolio"/></a>
 
 <img src="./assets/divider.svg" width="100%"/>
 
