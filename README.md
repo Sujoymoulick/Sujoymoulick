@@ -13,29 +13,20 @@
 
 <img src="./assets/divider.svg" width="100%"/>
 
-<h3>⚡ About Me</h3>
+<img src="./assets/title-about.svg" width="100%"/>
+<img src="./assets/about.svg" width="100%" alt="I'm Sujoy Moulick — B.Tech CSE student and full-stack developer building digital products, AI-powered tools, browser extensions and open-source apps."/>
 
-<p>I'm <b>Sujoy Moulick</b>, a B.Tech CSE student and full-stack developer building modern digital products,<br/>
-AI-powered tools, browser extensions and open-source apps.</p>
+<img src="./assets/title-projects.svg" width="100%"/>
 
-<p>This profile is my <b>digital workspace and portfolio</b> — where I experiment, learn, and turn ideas into<br/>
-real-world products with modern tech, clean UI/UX and AI-powered workflows.</p>
+<a href="https://sujoymoulick.github.io/EchoToDo-documentation/"><img src="./assets/project-echotodo.svg" width="32%" alt="EchoToDo — voice-powered productivity and todo extension"/></a>
+<a href="https://freepdfly.com"><img src="./assets/project-freepdfly.svg" width="32%" alt="FreePDFly — browser-based PDF toolkit"/></a>
+<a href="https://sendvirtualgift.com"><img src="./assets/project-sendvirtualgift.svg" width="32%" alt="SendVirtualGift — send virtual gifts online"/></a>
 
-<h3>🚀 SaaS Projects</h3>
+<img src="./assets/title-connect.svg" width="100%"/>
 
-<table>
-<tr>
-<td align="center" width="33%"><a href="https://sujoymoulick.github.io/EchoToDo-documentation/"><b>EchoToDo</b></a><br/><sub>Voice-powered productivity &amp; todo extension</sub></td>
-<td align="center" width="33%"><a href="https://freepdfly.com"><b>FreePDFly</b></a><br/><sub>Live SaaS · browser-based PDF toolkit</sub></td>
-<td align="center" width="33%"><a href="https://sendvirtualgift.com"><b>SendVirtualGift</b></a><br/><sub>Live SaaS · send virtual gifts online</sub></td>
-</tr>
-</table>
-
-<h3>🔗 Connect With Me</h3>
-
-<a href="https://www.linkedin.com/in/sujoymoulick/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://github.com/Sujoymoulick"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-<a href="https://sujoymoulick.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/sujoymoulick/"><img src="./assets/btn-linkedin.svg" height="48" alt="LinkedIn"/></a>
+<a href="https://github.com/Sujoymoulick"><img src="./assets/btn-github.svg" height="48" alt="GitHub"/></a>
+<a href="https://sujoymoulick.vercel.app/"><img src="./assets/btn-portfolio.svg" height="48" alt="Portfolio"/></a>
 
 <img src="./assets/divider.svg" width="100%"/>
 
