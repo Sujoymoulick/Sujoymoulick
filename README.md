@@ -1,5 +1,13 @@
 <div align="center">
 
+<a href="https://sujoymoulick.github.io/Sujoymoulick/">
+  <img src="./assets/cover.svg" width="100%" alt="Sujoy Moulick — AI Developer · Full-Stack Engineer · SaaS Builder"/>
+</a>
+
+<a href="https://sujoymoulick.github.io/Sujoymoulick/"><img src="https://img.shields.io/badge/▶_Open_the_live_3D_version-04050d?style=for-the-badge&logo=threedotjs&logoColor=00f7ff&labelColor=04050d&color=a855f7"/></a>
+
+<img src="./assets/divider.svg" width="100%"/>
+
 <table>
 <tr>
 <td width="380" valign="top">
@@ -92,9 +100,17 @@ This GitHub profile acts as my **digital workspace and portfolio**, where I cont
 </tr>
 </table>
 
+<img src="./assets/divider.svg" width="100%"/>
+
+<img src="./assets/tech-globe.svg" width="100%" alt="Tech stack: Python, JavaScript, C++, Java, LangChain, Node.js, React, Next.js, Astro, Tailwind, MongoDB, Supabase, Docker, AWS, Vercel, Cloudflare"/>
+
+<img src="./assets/divider.svg" width="100%"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sujoymoulick/Sujoymoulick/output/pacman-contribution-graph-dark.svg">
+  <img src="https://raw.githubusercontent.com/Sujoymoulick/Sujoymoulick/output/pacman-contribution-graph.svg" width="100%" alt="Pac-Man eating my contribution graph">
+</picture>
+
+<img src="./assets/footer.svg" width="100%"/>
 
 </div>
-
-
----
-

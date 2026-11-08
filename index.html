@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sujoy Moulick — 3D</title>
+<meta name="description" content="Sujoy Moulick — AI Developer, Full-Stack Engineer, SaaS Builder">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Inter:wght@800&display=swap" rel="stylesheet">
+<style>
+  :root{--cyan:#00f7ff;--violet:#a855f7;--pink:#ff3d9a;--text:#e6edf3;--muted:#8b9bb4}
+  *{box-sizing:border-box;margin:0}
+  html,body{height:100%;background:#04050d;color:var(--text);font-family:'JetBrains Mono',monospace;overflow:hidden}
+  canvas{position:fixed;inset:0;display:block}
+  .hud{position:fixed;inset:0;pointer-events:none;display:flex;flex-direction:column;justify-content:center;padding:0 7vw}
+  .kicker{color:var(--cyan);letter-spacing:.3em;font-size:clamp(11px,1.2vw,15px)}
+  h1{font-family:Inter,sans-serif;font-weight:800;font-size:clamp(40px,7.5vw,110px);line-height:1;margin:.25em 0;
+     background:linear-gradient(90deg,var(--pink),#fff,var(--cyan),var(--violet));background-size:300% 100%;
+     -webkit-background-clip:text;background-clip:text;color:transparent;animation:shift 8s linear infinite;
+     filter:drop-shadow(0 0 18px rgba(0,247,255,.35))}
+  @keyframes shift{to{background-position:300% 0}}
+  .role{font-size:clamp(15px,1.8vw,24px);min-height:1.4em}
+  .role::after{content:"▌";color:var(--cyan);animation:blink 1s steps(1) infinite}
+  @keyframes blink{50%{opacity:0}}
+  .links{margin-top:2.2em;display:flex;gap:12px;flex-wrap:wrap;pointer-events:auto}
+  .links a{color:var(--text);text-decoration:none;border:1px solid rgba(0,247,255,.5);background:rgba(0,247,255,.08);
+           padding:9px 16px;border-radius:999px;font-size:13px;transition:.2s}
+  .links a:hover{background:rgba(0,247,255,.22);box-shadow:0 0 18px rgba(0,247,255,.4)}
+  .foot{position:fixed;bottom:18px;right:24px;color:var(--muted);font-size:12px}
+  @media (max-width:700px){.hud{justify-content:flex-end;padding:0 16px 90px}}
+  @media (prefers-reduced-motion:reduce){h1{animation:none}}
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div class="hud">
+  <div class="kicker">&gt; hello_world.init()</div>
+  <h1>SUJOY<br>MOULICK</h1>
+  <div class="role" id="role"></div>
+  <div class="links">
+    <a href="https://github.com/Sujoymoulick">GitHub</a>
+    <a href="https://www.linkedin.com/in/sujoymoulick/">LinkedIn</a>
+    <a href="https://sujoymoulick.vercel.app/">Portfolio</a>
+    <a href="https://freepdfly.com">FreePDFly</a>
+    <a href="https://sendvirtualgift.com">SendVirtualGift</a>
+  </div>
+</div>
+<div class="foot">B.Tech CSE (AIML) · UEM Jaipur · drag to rotate</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+const roles=["AI Developer · LLM Tools & Automation","Full-Stack Engineer · React / Astro / Node","SaaS Builder · Open Source · Dev Tools"];
+(()=>{const el=document.getElementById('role');let r=0,i=0,del=false;
+ (function tick(){const s=roles[r];el.textContent=s.slice(0,i);
+  if(!del&&i<s.length)i++;else if(!del){del=true;return setTimeout(tick,1600)}
+  else if(i>0)i--;else{del=false;r=(r+1)%roles.length}
+  setTimeout(tick,del?25:55)})()})();
+
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const renderer=new THREE.WebGLRenderer({canvas:document.getElementById('c'),antialias:true});
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+const scene=new THREE.Scene();scene.fog=new THREE.FogExp2(0x04050d,0.045);
+const cam=new THREE.PerspectiveCamera(60,1,.1,200);cam.position.set(0,1.2,8);
+
+// hero shape: wireframe icosahedron + inner one + glowing vertices
+const group=new THREE.Group();scene.add(group);
+const ico=new THREE.IcosahedronGeometry(2,0);
+group.add(new THREE.LineSegments(new THREE.EdgesGeometry(ico),new THREE.LineBasicMaterial({color:0x00f7ff})));
+const inner=new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.IcosahedronGeometry(.9,0)),new THREE.LineBasicMaterial({color:0xff3d9a}));
+group.add(inner);
+group.add(new THREE.Points(ico,new THREE.PointsMaterial({color:0xe8fbff,size:.14})));
+const shell=new THREE.Mesh(new THREE.IcosahedronGeometry(2,1),new THREE.MeshBasicMaterial({color:0x00f7ff,transparent:true,opacity:.04}));
+group.add(shell);
+
+// orbit ring
+const ringG=new THREE.BufferGeometry(),N=40,rp=new Float32Array(N*3);
+ringG.setAttribute('position',new THREE.BufferAttribute(rp,3));
+const ring=new THREE.Points(ringG,new THREE.PointsMaterial({color:0xa855f7,size:.12}));
+ring.rotation.x=.45;ring.rotation.z=-.25;group.add(ring);
+
+// synthwave grid floor
+const grid=new THREE.GridHelper(80,80,0xa855f7,0x00f7ff);
+grid.material.transparent=true;grid.material.opacity=.45;grid.position.y=-2.6;scene.add(grid);
+
+// stars
+const sg=new THREE.BufferGeometry(),sp=new Float32Array(1500*3);
+for(let i=0;i<sp.length;i+=3){sp[i]=(Math.random()-.5)*120;sp[i+1]=Math.random()*40-2;sp[i+2]=-Math.random()*90}
+sg.setAttribute('position',new THREE.BufferAttribute(sp,3));
+scene.add(new THREE.Points(sg,new THREE.PointsMaterial({color:0xcfe9ff,size:.12})));
+
+function layout(){const w=innerWidth,h=innerHeight;renderer.setSize(w,h);cam.aspect=w/h;cam.updateProjectionMatrix();
+  group.position.set(w>700?3.3:0,w>700?.6:1.6,0);group.scale.setScalar(w>700?1:.75)}
+addEventListener('resize',layout);layout();
+
+let mx=0,my=0,drag=false,lx=0,vy=0;
+addEventListener('pointermove',e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5;if(drag){vy+=(e.clientX-lx)*.004;lx=e.clientX}});
+addEventListener('pointerdown',e=>{drag=true;lx=e.clientX});addEventListener('pointerup',()=>drag=false);
+
+const clock=new THREE.Clock();
+(function loop(){const t=clock.getElapsedTime(),sp=reduce?.2:1;
+  group.rotation.y+=.004*sp+vy;vy*=.92;group.rotation.x=Math.sin(t*.3)*.3;
+  inner.rotation.y=-t*1.1*sp;inner.rotation.x=t*.7*sp;
+  for(let i=0;i<N;i++){const a=t*.6*sp+i/N*Math.PI*2;rp[i*3]=Math.cos(a)*3.1;rp[i*3+1]=0;rp[i*3+2]=Math.sin(a)*3.1}
+  ringG.attributes.position.needsUpdate=true;
+  grid.position.z=(t*2*sp)%1;
+  cam.position.x+=(mx*1.5-cam.position.x)*.04;cam.position.y+=(1.2-my-cam.position.y)*.04;cam.lookAt(0,.5,0);
+  renderer.render(scene,cam);requestAnimationFrame(loop)})();
+</script>
+</body>
+</html>

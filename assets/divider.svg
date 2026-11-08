@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 24" width="1280" height="24">
+<defs><linearGradient id="d" x1="0" x2="1"><stop offset="0" stop-color="#00f7ff" stop-opacity="0"/><stop offset=".5" stop-color="#a855f7"/><stop offset="1" stop-color="#00f7ff" stop-opacity="0"/></linearGradient>
+<radialGradient id="pulse"><stop offset="0" stop-color="#fff"/><stop offset=".4" stop-color="#00f7ff"/><stop offset="1" stop-color="#00f7ff" stop-opacity="0"/></radialGradient></defs>
+<rect x="0" y="11" width="1280" height="2" fill="url(#d)"/>
+<ellipse cy="12" rx="60" ry="5" fill="url(#pulse)"><animate attributeName="cx" values="-60;1340" dur="3.5s" repeatCount="indefinite"/></ellipse>
+</svg>
