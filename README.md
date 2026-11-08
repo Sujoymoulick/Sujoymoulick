@@ -4,7 +4,6 @@
   <img src="./assets/cover.svg" width="100%" alt="Sujoy Moulick — AI Developer · Full-Stack Engineer · SaaS Builder"/>
 </a>
 
-<a href="https://sujoymoulick.github.io/Sujoymoulick/"><img src="https://img.shields.io/badge/▶_Open_the_live_3D_version-04050d?style=for-the-badge&logo=threedotjs&logoColor=00f7ff&labelColor=04050d&color=a855f7"/></a>
 
 <img src="./assets/divider.svg" width="100%"/>
 
