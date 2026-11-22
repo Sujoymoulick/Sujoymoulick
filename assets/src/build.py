@@ -237,7 +237,7 @@ def hero():
     b.append(f'<line x1="0" y1="506" x2="{W}" y2="506" stroke="{LINE}"/><rect y="507" width="{W}" height="{H-507}" fill="{PANEL}"/>')
     b.append(f'<svg x="0" y="507" width="{W-300}" height="{H-507}">{ticker(33, W, ["AI DEVELOPER", "FULL-STACK ENGINEER", "SAAS BUILDER", "OPEN SOURCE", "TECHNICAL HEAD @ TSS", "FOUNDER @ ASCELSTACK"], 16)}</svg>')
     b.append(f'<rect x="{W-300}" y="507" width="300" height="{H-507}" fill="{RED}"/>'
-             f'<text x="{W-276}" y="540" class="m" font-size="15" font-weight="700" fill="{BG}" letter-spacing="2">ENTER 3D SITE</text>'
+             f'<text x="{W-276}" y="540" class="m" font-size="15" font-weight="700" fill="{BG}" letter-spacing="2">ASCELSTACK.COM</text>'
              + arrow(W-62, 528, 1, BG))
     b.append(crops(W, H))
     b.append(scanlines(W, H))

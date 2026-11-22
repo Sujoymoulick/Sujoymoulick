@@ -1,7 +1,7 @@
 <div align="center">
 
-<a href="https://sujoymoulick.github.io/Sujoymoulick/">
-  <img src="./assets/hero.svg" width="100%" alt="Sujoy Moulick — AI developer, full-stack engineer, SaaS builder. Click to enter the 3D site."/>
+<a href="https://ascelstack.com">
+  <img src="./assets/hero.svg" width="100%" alt="Sujoy Moulick — AI developer, full-stack engineer, SaaS builder. Founder &amp; CTO of Ascelstack — visit ascelstack.com."/>
 </a>
 
 <img src="./assets/divider.svg" width="100%"/>
